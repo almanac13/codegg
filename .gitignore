@@ -1,0 +1,26 @@
+# Environment files (keep example configuration)
+.env
+.env.*
+!.env.example
+
+# Java build output
+target/
+build/
+.gradle/
+out/
+*.class
+
+# Node dependencies and frontend build output
+node_modules/
+dist/
+
+# Local IDE files
+.idea/
+.vscode/
+*.iml
+*.ipr
+*.iws
+.classpath
+.project
+.settings/
+.factorypath
